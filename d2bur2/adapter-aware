@@ -1,8 +1,15 @@
-nns.db.driverClass=oracle.jdbc.driver.OracleDriver
-nns.db.initialSize=5
-nns.db.maxIdle=5
-nns.db.maxActive=15
-nns.db.testOnIdle=true
+spring.datasource.driver-class-name = oracle.jdbc.driver.OracleDriver
+
+# Spring has a default for this as 100, we will down size default to 50
+spring.datasource.max-active=15 
+spring.datasource.max-idle=5 
+spring.datasource.max-active=15 
+spring.datasource.test-while-idle=true 
+
+spring.datasource.initial-size=5
+
+# Wait for up to 30 seconds for a connection to become available if all used.
+spring.datasource.max-wait=30000
 
 adapter.scripts.location=/opt/tomcat/conf/omnivox_resource/scripts
 
