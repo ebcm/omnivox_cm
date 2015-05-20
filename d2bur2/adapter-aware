@@ -1,3 +1,4 @@
+nns.db.driverClass=oracle.jdbc.driver.OracleDriver
 nns.db.initialSize=5
 nns.db.maxIdle=5
 nns.db.maxActive=15
