@@ -48,15 +48,3 @@ callEngineRules:
       - 
         callEngineId: "http://d2bur2ve03.ebcolo.com/callengine/calls"
         priority: 0
-  - 
-    rule: ""
-    callEnginePriorities: 
-      - 
-        callEngineId: "http://d2bur2ve01.ebcolo.com/callengine/calls"
-        priority: 20
-      - 
-        callEngineId: "http://d2bur2ve02.ebcolo.com/callengine/calls"
-        priority: 10
-      - 
-        callEngineId: "http://d2bur2ve03.ebcolo.com/callengine/calls"
-        priority: 0
